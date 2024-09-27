@@ -1,0 +1,47 @@
+----------------- Options ---------------
+                  SA_mode: BAM                           
+                    angle: 0                             
+                     arch: mynet3                        
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: ./LEVIR-CD                    
+             dataset_mode: changedetection               
+             dataset_type: CD_LEVIR                      
+          display_winsize: 256                           
+                       ds: 1                             	[default: 1]
+                    epoch: latest                        
+                     eval: False                         
+                      f_c: 64                            
+                  gpu_ids: 0                             
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                   istest: False                         
+                json_name: train_val_test                
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: CDF0                          
+                  n_class: 2                             
+                     name: experiment_name               
+                  no_flip: True                          
+                    ntest: inf                           
+                 num_test: 50                            
+              num_threads: 4                             
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: resize_and_crop               
+              results_dir: ./results/                    
+           serial_batches: False                         
+                    split: train                         
+                   suffix:                               
+             val_dataroot: ./LEVIR-CD                    
+         val_dataset_mode: changedetection               
+         val_dataset_type: CD_LEVIR                      
+            val_json_name: train_val_test                
+                val_split: val                           
+                  verbose: False                         
+----------------- End -------------------
